@@ -19,7 +19,8 @@ The time we greeted you.
 ## Example usage
 
 ```yml
-uses: huy8895/github-actions-docker-container@v1
-with:
-who-to-greet: 'Trinh van huy'
+  -
+    uses: huy8895/github-actions-docker-container@v1
+    with:
+      who-to-greet: 'Trinh van huy'
 ```
